@@ -1,0 +1,121 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=div, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'css/home.css' %}" />
+    <script src="https://kit.fontawesome.com/1165876da6.js" crossorigin="anonymous"></script>
+  </head>
+
+  <body>
+    <div class="top-card">
+      <img src="{% static 'images/logo.png' %}" class="logo-img" />
+      <div class="nav-items">
+        <ul class="list">
+          <li class="items">
+            <a href="{% url 'home' %}">Home</a>
+          </li>
+          <li class="items">
+            <a href="{% url 'aboutus' %}">About Us</a>
+          </li>
+          <li class="items">
+            <a href="{% url 'service' %}">Service</a>
+          </li>
+          <li class="items">
+            <a href="{% url 'contactus' %}">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="images">
+      <p class="content">
+        Empowering our <br />
+        clients with<br />
+        innovation<br />
+        We delivery future ready solutions
+      </p>
+    </div>
+    <br />
+    <center>
+      <h1 class="service_item">Our Services</h1>
+    </center>
+    <div class="row">
+      <div class="column">
+        <div class="card">
+          <h2 style="font-size: 40px;">Digital Transformation</h2>
+          <p style="font-size: 30px;">Web and Mobile development with user and business centric approach, built on new gen technology.</p>
+          </div>
+      </div>
+    
+      <div class="column">
+        <div class="card">
+          <h2 style="font-size: 40px;">Cloud Transformation</h2>
+          <p style="font-size: 30px;">Scalable and reliable cloud application development, using the full potential of cloud services.</p>
+         </div>
+      </div>
+      
+      <div class="column">
+        <div class="card">
+          <h2 style="font-size: 40px;">DevOps</h2><br>
+          <p style="font-size: 30px;">Scalable and reliable cloud application development, using the full potential of cloud services.</p>
+          </div>
+      </div>
+
+      <div class="column">
+        <div class="card">
+          <h2 style="font-size: 40px;"><br>Staffing</h2><br>
+          <p style="font-size: 30px;">Hire the right resource to expand your team instantly.</p>
+          </div>
+      </div>
+    
+      <div class="column">
+        <div class="card">
+          <h2 style="font-size: 40px;">Digital Assurance</h2>
+          <p style="font-size: 30px;">Delivery quality using the right skill set, technology and tools kits.</p>
+          </div>
+      </div>
+      
+      <div class="column">
+        <div class="card">
+          <h2 style="font-size: 40px;">Project Design </h2><br>
+          <p style="font-size: 30px;">We design and develop cutting-edge software applications that  business requirements.</p>
+        </div>
+      </div>
+
+    </div>
+      <footer>
+      <div class="container">
+         <div class="footer-content">
+            <h3>contact us</h3>
+            <p>email:md@luritsolution.com</p>
+            <p>phone:8106216882</p>
+          <p>Address:AmeerpetMetro Station,Hyderabad</p>
+          </div>
+          <div class="footer-content">
+             <h3>Quick Link</h3>
+             <ul class="list_item">
+                <li><a href="{% url 'home' %}">Home</a></li>
+                <li><a href="{% url 'aboutus' %}">about</a></li>
+                <li><a href="{% url 'service' %}">services</a></li>
+                <li><a href="{% url 'contactus' %}">contact</a></li>
+             </ul>
+           </div>
+           <div class="footer-content">
+              <h3>Follow Us</h3>
+              <ul class="social-icons">
+              <li><a href=""><i class="fab fa-facebook"></i></a></li>
+              <li><a href=""><i class="fab fa-twitter"></i></a></li>
+              <li><a href=""><i class="fab fa-instagram"></i></a></li>
+              </ul>
+           </div>
+
+      </div>
+      <div class="bottom-bar">
+         <p>@ 2023 you company.All rights reserved</p>
+      </div>
+      </footer>
+
+  </body>
+</html>

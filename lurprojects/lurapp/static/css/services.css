@@ -1,0 +1,247 @@
+.name{
+    background-image:url("img3.jpeg ");
+    height: 83vh;
+    background-size:1675px 1198px;
+    background-position: center;
+    font-size: 40px;
+    color:black;
+    font-style: oblique;
+    font-family: century;
+}
+.list{
+    float: right;
+    list-style-type: none;
+    margin-top: 30px;
+    font-size: 25px;
+    font-style: italic;
+}
+ul li{
+    display: inline-block;   
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 5px 20px;
+}
+ul li a:hover{
+    color:blue;
+}
+.items{
+    color: white;
+}
+.items li{
+display: list-item;
+}
+.top-card{
+    display: flex;
+    padding-left: 20px;
+    background-color: #d87b7b;
+}
+.logo-img{
+    height: 130px;
+    width: 150px;
+}
+.text-center{
+    background-image: url(../images/footer.jpg);
+    height: 90px;
+}
+.service-title h1 {
+    position: relative;
+    display: inline-block;
+    font-size: 50px;
+  }
+  .service-title p {
+    padding:  190px;
+    margin-bottom: 10px;
+  }
+  
+  .service {
+    border: 0px solid #e3e6e7;
+    padding: 15px 30px;
+    position: relative;
+    display: flex;
+  }
+  
+  .service p{
+    position: relative;
+  }
+  .content{
+    padding-left: 55px;
+  }
+  
+  .service:hover {
+    background-image:url(img4.jpeg);
+    background-size: cover;
+    background-position: center;
+    
+  }
+  
+  .service:hover:before {
+    background: rgba(0, 0, 0,0.2901960784313726);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0px;
+    content: "";
+    top: 0;
+  }
+  .service:hover h4,.service:hover p{
+    color: #eef3f2;
+  }
+  .service h4 {
+    font-weight: 600;
+    color: #1e2331;
+    margin-bottom: 17px;
+    font-size: 18px;
+    text-transform: capitalize;
+      position: relative;
+  
+  }  
+.service-title h4 {
+    position: relative;
+    display: inline-block;
+  }
+  .service-title p {
+    padding:  190px;
+    margin-bottom: 10px;
+  }
+  
+  .service {
+    border: 0px solid #e3e6e7;
+    padding: 15px 30px;
+    position: relative;
+    display: flex;
+  }
+  
+  .service p{
+    position: relative;
+  }
+  .content{
+    padding-left: 55px;
+  }
+  
+  .service:hover {
+    background-image:url(img4.jpeg);
+    background-size: cover;
+    background-position: center;
+    
+  }
+  
+  .service:hover:before {
+    background: rgba(73, 69, 69, 0.29);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0px;
+    content: "";
+    top: 0;
+  }
+  
+  .service:hover h4,.service:hover p{
+    color: #1f2020;
+  }
+  .service h4 {
+    font-weight: 600;
+    color: #1e2331;
+    margin-bottom: 17px;
+    font-size: 18px;
+    text-transform: capitalize;
+      position: relative;
+  
+  }
+  .service_para{
+    font-size: 30px;
+  }
+
+  footer{
+    background: #343434;
+    padding-top: 50px;
+}
+.container{
+    width: 1140px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.footer-content{
+    width: 33.3%;
+    color: #f8f2f2;
+}
+h3{
+    font-size: 28px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.footer-content p{
+    width:190px;
+    margin: auto;
+    padding: 7px;
+    font-size: 28px;
+}
+.footer-content ul{
+    text-align: center;
+    display:grid;
+    font-size: 28px;
+}
+.list_item a{
+    padding: 0;
+    color: #f8f2f2;
+    
+}
+.list li{
+    width: auto;
+    text-align: center;
+    list-style-type:none;
+    padding: 7px;
+    position: relative;
+}
+.list li::before{
+    content: '';
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 100%;
+    width: 0;
+    height: 2px;
+    background: #f18930;
+    transition-duration: .5s;
+}
+.list li:hover::before{
+    width: 70px;
+}
+.social-icons{
+    text-align: center;
+    padding: 0;
+}
+.social-icons li{
+    display: inline-block;
+    text-align: center;
+    padding: 5px;
+}
+.social-icons i{
+    color: white;
+    font-size: 25px;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: #f18930;
+}
+.social-icons i:hover{
+    color: #f18930;
+}
+.bottom-bar{
+    background: #f18930;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 50px;
+}
+.bottom-bar p{
+    color: #e9dddd;
+    margin: 0;
+    font-size: 26px;
+    padding: 7px;
+}
+  
+  

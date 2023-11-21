@@ -1,0 +1,118 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=div, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'css/contact.css' %}" />
+    <script src="https://kit.fontawesome.com/1165876da6.js" crossorigin="anonymous"></script>
+  </head>
+
+  <body>
+    <div class="top-card">
+      <img src="{% static 'images/logo.png' %}" class="logo-img"/>
+      <div class="nav-items">
+       <ul class="list" style="padding-left: 250px;">
+        <li class="items"><a href="{% url "home"%}">Home</a> </li>
+        <li class="items"><a href="{% url "aboutus"%}">About Us</a></li>
+        <li class="items"><a href="{% url "service"%}">Services</a></li>
+        <li class="items"><a href="{% url "contact"%}">Contact Us</a></li>
+       </ul>
+     </div>
+    </div>
+     <div style="background-color: oldlace;">
+    <center >
+     <div>
+       <!--<h1 >Get In Touch <em style="color:red;">With US</em></h1> -->
+       <h1 style="color:blueviolet;text-align:center;">Contact</h1>
+       <br><br>
+       <h3 >Let's talk. Learn more about LURIT's and how we're<br> supercharging progress with our clients, our people<br>
+        and in our communities.</h3>
+       </center>
+     <div>
+   
+    <div>
+      <div class="grid-container" style="float: left;padding-top: 20px;">
+        <div class="grid-item">
+          <i class="fa fa-map-marker" style="font-size:24px"></i>
+          <h3>Address</h3>
+          Vasavi MPM Grand,
+          Beside Ameerpet Metro Station,
+          Hyderabad-500073.
+        </div>
+        <div class="grid-item">
+          <i class="fa fa-phone-square" style="font-size:24px"></i>
+          <h3>CALL US</h3>
+          Admin/ HR Department
+          Mobile : +91 8106216882
+        </div>
+        <div class="grid-item">
+          <i class="fa fa-envelope" style="font-size:20px"></i>
+          <h3>EMAIL US</h3>
+          hr@luritsolutions.com
+        </div>
+        <div class="grid-item">
+          <i class="fa fa-clock-o" style="font-size:24px"></i>
+          <h3>WORKING HOURS</h3>
+          Mon-Fri:10AM-7PM
+        </div>
+      </div>
+  
+    </div>
+        <form>
+          <label>Full Name </label><br>
+          <input type="text" size="25" style="height: 10px; padding: 10px; border-radius: 5px;" placeholder="Full Name"></input>
+          <br>
+          <label>Bussiness Email </label>
+          <br>
+          <input type="email" size="25" style="height: 10px; padding: 10px; border-radius: 5px" placeholder="Bussiness Email"></input>
+          <br>
+          <label>Contact </label><br>
+          <input type="number" size="25" style="height: 10px;padding: 10px; width: 208px; border-radius: 5px" placeholder="Contact"></input>
+          <br>
+          <label>Message</label><br>
+          <textarea rows="9" cols="30" maxlength="500" placeholder="Message"></textarea><br>
+          <input type="checkbox">I Have Read LURIT's Privacy Policy <br>&nbsp &nbsp and Terms and Conditions.<br>
+          <input type="submit" value="Send Message" style="height: 30px; width: 250px;font-size: 18px; border-radius: 5px">
+        </form>
+      {% comment %} </div>
+  
+    </div>
+   </div> {% endcomment %}
+   <footer>
+    <div class="container">
+       <div class="footer-content">
+          <h3>contact us</h3>
+          <p>email:info@example.com</p>
+          <p>phone:8106216882</p>
+        <p>Address:AmeerpetMetro Station,Hyderabad</p>
+        </div>
+        <div class="footer-content">
+           <h3>Quick Link</h3>
+           <ul class="list_item">
+              <li><a href="">home</a></li>
+              <li><a href="">about</a></li>
+              <li><a href="">services</a></li>
+              <li><a href="">contact</a></li>
+           </ul>
+         </div>
+         <div class="footer-content">
+            <h3>Follow Us</h3>
+            <ul class="social-icons">
+            <li><a href=""><i class="fab fa-facebook"></i></a></li>
+            <li><a href=""><i class="fab fa-twitter"></i></a></li>
+            <li><a href=""><i class="fab fa-instagram"></i></a></li>
+            </ul>
+         </div>
+
+    </div>
+    <div class="bottom-bar">
+       <p>@ 2023 you company.All rights reserved</p>
+    </div>
+    </footer>
+   
+     
+    </body>
+  </html>
+  

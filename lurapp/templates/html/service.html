@@ -1,0 +1,178 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head> 
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=div, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'css/services.css' %}" />
+    <script src="https://kit.fontawesome.com/1165876da6.js" crossorigin="anonymous"></script>
+  </head>
+
+  <body>
+    <div class="top-card">
+      <img src="{% static 'images/logo.png' %}" class="logo-img" alt=""/>
+      <div class="nav-items">
+       <ul class="list" style="padding-left: 250px;">
+        <li class="items"><a href="{% url "home"%}">Home</a> </li>
+        <li class="items"><a href="{% url "aboutus"%}">About Us</a></li>
+        <li class="items"><a href="{% url "service"%}">Services</a></li>
+        <li class="items"><a href="{% url "contactus"%}">Contact Us</a></li>
+       </ul>
+      </div>
+    </div>
+    <div>
+      <div class="service-title" style="margin-bottom: -10px;" >
+          <center>
+          <h1 style="color:black;">Services</h1>
+          </center>
+      </div>
+      
+      <div class="service">
+        <img src="{%static 'images/digital_image.jpg'%}"height="300px",width="400px" style="width: 500px;">
+        <div  class="content">
+            <h1>Digital Transformation</h1>
+                <p style="font-size: 30px";class="service_para">Digital transformation services providers must not merely react to changes in the digital landscape;
+
+                   they must anticipate and outmaneuver them. At Intellectsoft, 
+                   
+                   our experts use a strategic approach driven by science and insights to provide scalable,
+
+                    forward-thinking digital business transformation services. With us,
+
+                     our clients not only address their immediate digital concerns but can also improve decision-making processes in the long run.
+                     
+                     Reach out to us today.
+            </p>
+     </div>
+ </div>
+
+      
+          <div class="service">
+              <img src="{%static 'images/cloud_image.jpg'%}"height="250px",width="400px" style="width: 500px;">
+              <div  class="content">
+                  <h1>Cloud Transformation</h1>
+                      <p class="service_para">The ability to overcome unprecedented challenges and innovate at speed is essential for businesses looking to remain agile in the face of uncertainty.
+
+                        Cloud technology facilitates this resilience, helping businesses modernize and transform their strategies for the future.
+                        
+                        Download our paper to discover the common cloud mistakes to avoid for long-term value alongside expert recommendations and examples.
+  
+  
+                        We help to create the case for change bringing to bear the necessary assessment and consulting services.
+                         
+                  </p>
+           </div>
+       </div>
+       <div class="service">
+        <img src="{%static 'images/devops_image.jpeg'%}"height="220px",width="300px" style="width: 500px;">
+        <div  class="content">
+            <h1>DevOps</h1>
+                <p class="service_para"> Highly functioning and output-driven DevOps experts from Radixweb employ best-in-class practices to develop agile and scalable software solutions.
+
+                  Propel your business path to streamline your workflow through automation as we assist you in collaborating the development and operations team with enhanced security.
+
+                 As a prominent DevOps development company, our skilled developers can help you standardize the infrastructure deployment process .
+
+                  Additionally, we will empower you with incremental development and automated testing plug-ins for continuous feedback integration and risk mitigation.
+            </p>
+     </div>
+ </div>
+ <div class="service">
+  <img src="{%static 'images/staffi_image.jpg'%}" height="250px",width="400px">
+  <div  class="content">
+      <h1>Staffing</h1>
+          <p class="service_para">Our technology staffing specialists can quickly find highly skilled IT professionals on a contract,
+            
+            contract-to-hire and permanent basis.
+
+            Digital transformation services providers must not merely react to changes in the digital landscape;
+
+                   they must anticipate and outmaneuver them. At Intellectsoft, 
+                   
+                   our experts use a strategic approach driven by science and insights to provide scalable,
+
+                    forward-thinking digital business transformation services. With us,
+
+                     our clients not only address their immediate digital concerns but can also improve decision-making processes in the long run.
+                     
+                     Reach out to us today.
+      </p>
+</div>
+</div>
+       
+          <div class="service">
+          <img src="{%static 'images/assurance_image.jpg'%}"height="250px",width="300px">
+          <div  class="content">
+              <h1>Digital Assurance</h1>
+                  <p class="service_para"> Digital Assurance practice enables scalable and accelerated digital transformation driven by a quality approach that improves engineers,
+
+                     productivity and enhances developer experience. The above are based on key tenets of speed, experience and user analytics.  
+
+                    Our transformation offerings consist of two key pillars - strengthening the Digital Core and expanding the Digital Boundaries.
+              </p>
+       </div>
+   </div>
+   
+</div>
+<div class="service">
+  <img src="{%static 'images/Web_image.jpg'%}" height="230px",width="380px">
+  <div  class="content">
+      <h1>Project Design & Developments</h1>
+          <p class="service_para">We design and develop cutting-edge software applications that are tailored to meet your unique business requirements.
+
+            Our technology staffing specialists can quickly find highly skilled IT professionals on a contract,
+            
+            contract-to-hire and permanent basis.
+
+            Digital transformation services providers must not merely react to changes in the digital landscape;
+
+                   they must anticipate and outmaneuver them. At Intellectsoft, 
+                   
+                   our experts use a strategic approach driven by science and insights to provide scalable,
+
+
+                     Reach out to us today.
+
+
+      </p>
+</div>
+</div>
+    <br><br>
+    <br><br>
+    <footer>
+      <div class="container">
+         <div class="footer-content">
+            <h3>contact us</h3>
+            <p>email:md@luritsolution.com</p>
+            <p>phone:8106216882</p>
+          <p>Address:AmeerpetMetro Station,Hyderabad</p>
+          </div>
+          <div class="footer-content">
+             <h3>Quick Link</h3>
+             <ul class="list_item">
+                <li><a href="{% url 'home' %}">home</a></li>
+                <li><a href="{% url 'aboutus' %}">about</a></li>
+                <li><a href="{% url 'service' %}">services</a></li>
+                <li><a href="{% url 'contactus' %}">contact</a></li>
+             </ul>
+           </div>
+           <div class="footer-content">
+              <h3>Follow Us</h3>
+              <ul class="social-icons">
+              <li><a href=""><i class="fab fa-facebook"></i></a></li>
+              <li><a href=""><i class="fab fa-twitter"></i></a></li>
+              <li><a href=""><i class="fab fa-instagram"></i></a></li>
+              </ul>
+           </div>
+
+      </div>
+      <div class="bottom-bar">
+         <p>@ 2023 you company.All rights reserved</p>
+      </div>
+      </footer>
+
+    
+  </body>
+</html>
+  
